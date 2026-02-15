@@ -15,7 +15,7 @@ const HeroSection = () => {
       <nav className="absolute top-0 left-0 right-0 z-20 flex items-center justify-between px-6 md:px-12 py-4">
         <img src={logo} alt="Karam Al Bahr Logo" className="w-16 h-16 md:w-20 md:h-20 rounded-full shadow-lg" />
         <div className="hidden md:flex items-center gap-8 font-body text-sm tracking-wide">
-          <a href="#menu" className="text-primary-foreground/90 hover:text-secondary transition-colors">Menu</a>
+          <a href="/menu" className="text-primary-foreground/90 hover:text-secondary transition-colors">Menu</a>
           <a href="#about" className="text-primary-foreground/90 hover:text-secondary transition-colors">À propos</a>
           <a href="#contact" className="text-primary-foreground/90 hover:text-secondary transition-colors">Contact</a>
         </div>
@@ -52,7 +52,7 @@ const HeroSection = () => {
         </div>
 
         <div className="mt-10 flex flex-wrap justify-center gap-4">
-          <a href="#menu" className="bg-secondary text-secondary-foreground font-bold px-8 py-3 rounded-full text-lg hover:brightness-110 transition shadow-lg">
+          <a href="/menu" className="bg-secondary text-secondary-foreground font-bold px-8 py-3 rounded-full text-lg hover:brightness-110 transition shadow-lg">
             Voir le Menu
           </a>
           <a href="#contact" className="border-2 border-primary-foreground/30 text-primary-foreground font-body px-8 py-3 rounded-full text-lg hover:bg-primary-foreground/10 transition">
